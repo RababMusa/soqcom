@@ -1,0 +1,109 @@
+html{
+    direction: rtl;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F3F3F3;
+}
+p, label{
+    margin-bottom: 0px;
+}
+/* @font-face{
+    font-family: cairoBold;
+    src:url(Cairo-Regular.ttf)
+} */
+
+
+/************style header**************************/
+.secheasocial{
+    font-family: 'DroidArabicKufiRegular';
+}
+.secnavhead{
+    font-family: 'Akhbar MT';
+
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: #08C6F2 ;
+}
+.lbllang{
+    padding-left: 5px;
+    color: #08C6F2 ;
+}
+.contactinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 12px;
+}
+.iconcontact{
+    color: #08C6F2;
+}
+.lblcontact{
+    color: #fff;
+}
+.imglgoheader{
+    width: 100%;
+    height: auto;
+}
+.divimglogohead{
+    max-width: 100px;
+}
+.searchhead{
+    border-radius: 20px;
+    border: 1px solid #08C6F2;
+    margin-left: 10px;
+}
+.secheasocial{
+    background-color: #12758D;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.socialIconHeader{
+    margin-right: 5px;
+    color: #08C6F2;
+}
+.secFirsthead{
+    align-items: center;
+}
+.btnlogin{
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    background-color: #08C6F2;
+    padding: 5px 30px;
+    max-width: 100px;
+    text-align: center;
+}
+.btnslog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.divbtnlog{
+    margin-bottom: 5px;
+}
+.divegyptFlag{
+    max-width:20px;
+    margin-left: 10px;
+}
+.navheadlinks{
+    text-align: right;
+}
+.egyptFlag{
+    width: 100%;
+    height: auto;
+}
+.divlang{
+    display: flex;
+    align-items: baseline;
+}
+.lbllang{
+    font-size: 12px;
+}
+
+/************end style header**************************/
