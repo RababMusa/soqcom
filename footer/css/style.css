@@ -1,0 +1,73 @@
+/******************Start Footer*****************************/
+.footer{
+    background-color: #12748D;
+    padding: 15px;
+}
+.aboutInFooter{
+    text-align: center;
+}
+.haboutInFooter{
+    color: #0AEF71;
+}
+.paboutInFooter{
+    color: #fff;
+    font-size: 12px;
+}
+.linksfooter{
+    color:#fff;
+    font-size: 9px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.afooter{
+    color:#fff;
+}
+.afooter:hover{
+    color:#fff;
+    text-decoration: none;
+}
+.contactinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 12px;
+}
+.iconcontact{
+    color: #08C6F2;
+}
+.lblcontact{
+    color: #fff;
+}
+.rowfooter{
+    align-items: center;
+}
+.circleIcons{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #36899B;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+.divcontacticons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.divimglogofooter{
+    max-width: 200px;
+}
+.imglgo{
+    width: 100%;
+    height: auto;
+}
+.centerimgfooter{
+    display: flex;
+    justify-content: center;
+}
+/******************End Footer*****************************/
