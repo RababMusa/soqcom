@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>سوق كوم</title>
 </head>
 <body>
@@ -20,14 +21,14 @@
                 <div class="col-md-6 col-12">
                     <div>
                         <div class="contactinfo">
-                            <div>
+                            <div class="divcontactinfo">
                                 <i class="fas fa-shopping-cart lblcontact"></i>
                             </div>
-                            <div>
+                            <div class="divcontactinfo">
                                 <i class="fas fa-phone iconcontact"></i>
                                 <label class="lblcontact">00905376046422</label>
                             </div>
-                            <div>
+                            <div class="divcontactinfo">
                                 <i class="fas fa-envelope iconcontact"></i>
                                 <label class="lblcontact">Info@tasweek.com</label>
                             </div>
@@ -74,57 +75,74 @@
         </div>
         <div class="secnavhead">
             <nav class="navbar navbar-expand-lg navbar-light bg-light navheadlinks">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                  <a class="navbar-brand" href="#">
-                      <div class="divimglogohead">
-                      <img src="img/logo.png" class="imglgoheader" alt="">
-                      </div>
-                  </a>
-                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">الرئيسية<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">الخدمات التجارية</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="#">الخدمات المهنية</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">الخدمات الطبية</a>
+                <a class="navbar-brand" href="#">
+                    <div class="divimglogohead">
+                    <img src="img/logo.png" class="imglgoheader" alt="">
+                    </div>
+                </a>
+                <div class="divflexLinksandLang" >
+                <div style="display: flex; flex-direction: row-reverse;">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                   
+                  <div style="display: flex; align-items: center;">
+                <div class="divegyptFlag">
+                    <img src="img/egypt.png" class="egyptFlag" alt="" data-toggle="tooltip" data-placement="top" title="أنت تتصفح الموقع من دولة مصر">
+                </div>
+                <div class="divlang divlangEN">
+                  <label class="lbllang"> EN</label>
+                    <!--
+                 <div class="divegyptFlag">
+                    <img src="img/united-kingdom.png" class="egyptFlag" alt="">
+                </div>
+                    -->
+              </div>
+              <div class="divlang divlangAR">
+                  <label class="lbllang"> AR</label>
+                   <!--
+                 <div class="divegyptFlag">
+                    <img src="img/sa.png" class="egyptFlag" alt="">
+                </div>
+                   -->
+              </div>
+              <div class="divuser dropdown show">
+                <i class="fas fa-user" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> </i>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item logresponsive" href="#">LOGIN</a>
+                    <a class="dropdown-item logresponsive" href="#">SIGNUP</a>
+                  </div>
+              </div>
+                  </div>
+                   </div>
+     
+                <div class="collapse navbar-collapse divlinksresponsive" id="navbarTogglerDemo01">
+                 
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#home">الرئيسية<span class="sr-only">(current)</span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link " href="#">من نحن</a>
+                        <a class="nav-link" href="#commerc">الخدمات التجارية</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link " href="#">تواصل معنا</a>
+                        <a class="nav-link " href="#professionals">الخدمات المهنية</a>
                       </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2 searchhead" type="search" placeholder="بحث" aria-label="Search">
-                  </form>
-                  <div class="divegyptFlag">
-                      <img src="img/egypt.png" class="egyptFlag" alt="" data-toggle="tooltip" data-placement="top" title="أنت تتصفح الموقع من دولة مصر">
+                      <li class="nav-item">
+                          <a class="nav-link " href="#doctors">الخدمات الطبية</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link " href="#">من نحن</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link " href="#">تواصل معنا</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                      <input class="form-control mr-sm-2 searchhead" type="search" placeholder="بحث" aria-label="Search">
+                    </form>
+                
                   </div>
-                  <div class="divlang divlangEN">
-                    <label class="lbllang"> EN</label>
-                      <!--
-                   <div class="divegyptFlag">
-                      <img src="img/united-kingdom.png" class="egyptFlag" alt="">
-                  </div>
-                      -->
-                </div>
-                <div class="divlang divlangAR">
-                    <label class="lbllang"> AR</label>
-                     <!--
-                   <div class="divegyptFlag">
-                      <img src="img/sa.png" class="egyptFlag" alt="">
-                  </div>
-                     -->
-                </div>
                 </div>
               </nav>
         </div>

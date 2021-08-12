@@ -26,9 +26,7 @@ p, label{
     font-family: 'Akhbar MT';
 
 }
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
-    color: #08C6F2 ;
-}
+
 .lbllang{
     padding-left: 5px;
     color: #08C6F2 ;
@@ -36,7 +34,7 @@ p, label{
 .contactinfo{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     font-size: 12px;
 }
 .iconcontact{
@@ -73,7 +71,7 @@ p, label{
     border: none;
     border-radius: 40px;
     color: #fff;
-    background-color: #08C6F2;
+    background-color:#08C6F2 ;
     padding: 5px 30px;
     max-width: 100px;
     text-align: center;
@@ -93,6 +91,10 @@ p, label{
 }
 .navheadlinks{
     text-align: right;
+    justify-content: space-between;
+    align-items:baseline;
+    background-color:  #12758D ;
+  
 }
 .egyptFlag{
     width: 100%;
@@ -105,5 +107,26 @@ p, label{
 .lbllang{
     font-size: 12px;
 }
-
+.divuser{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #08C6F2;
+    color: #08C6F2;
+    margin-left: 5px;
+}
+.logresponsive{
+    color: #707070;
+    font-family: 'DroidArabicKufiRegular';
+}
+.navbar-light .navbar-toggler{
+    border-color: rgba(0,0,0,.5);
+}
+.divcontactinfo{
+    margin-left: 10px;
+}
 /************end style header**************************/
