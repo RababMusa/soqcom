@@ -129,4 +129,15 @@ p, label{
 .divcontactinfo{
     margin-left: 10px;
 }
+.divcartresponsive{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.dropmenulogs
+{
+    background-color: #eee;
+    border: none;
+    box-shadow: 3px 4px 5px #b3b3b3;
+}
+
 /************end style header**************************/

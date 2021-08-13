@@ -15,7 +15,7 @@
         background-color:  #12758D !important ;
     }
     .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-        color: #707070 ;
+        color: #fff ;
        background-color: #08C6F2;
      
     }
@@ -39,7 +39,7 @@
     background-color:  #12758D !important ;
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
-    color: #707070 ;
+    color: #fff ;
    background-color: #08C6F2;
 }
 .nav-link{
@@ -63,7 +63,7 @@
         background-color:  #12758D !important;
     }
     .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
-        color: #707070 ;
+        color: #fff ;
        background-color: #08C6F2;
     }
     .nav-link{
@@ -74,6 +74,9 @@
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
     .divuser{
+        display: none;
+    }
+    .divcartresponsive{
         display: none;
     }
     .divflexLinksandLang{
@@ -90,6 +93,9 @@
  .divuser{
      display: none;
  }
+ .divcartresponsive{
+    display: none;
+}
  .divflexLinksandLang{
     display: flex;
     flex-direction: row-reverse;
